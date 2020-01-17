@@ -1,0 +1,29 @@
+{
+  "name": "sms-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "debug": "node --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrobotovychKostiantyn/sms-node.git"
+  },
+  "author": "Drobotovych Kostiantyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrobotovychKostiantyn/sms-node/issues"
+  },
+  "homepage": "https://github.com/DrobotovychKostiantyn/sms-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nexmo": "^2.5.3",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
